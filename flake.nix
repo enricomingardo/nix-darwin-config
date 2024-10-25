@@ -18,7 +18,7 @@
     ...
   }: {
     darwinConfigurations = {
-      "enrico" = nix-darwin.lib.darwinSystem {
+      "macbook" = nix-darwin.lib.darwinSystem {
         modules = [
           # Pass self and nixpkgs to the modules
           {_module.args.self = self;}
